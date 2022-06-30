@@ -7,7 +7,7 @@ class Start:
     def __init__(self, parent):
 
         # gui to get starting balance and stakes
-        self.start_frame = Frame(padx=10, pady=10)
+        self.start_frame = Frame(parent)
         self.start_frame.grid()
 
         self.push_button = Button(self.start_frame, text="Push Now", command=self.to_game)
